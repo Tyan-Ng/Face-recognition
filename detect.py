@@ -11,7 +11,7 @@ from keras_facenet import FaceNet
 facenet = FaceNet()
 
 # Load precomputed face embeddings
-faces_embeddings = np.load("model/faces_embeddings.npz")
+faces_embeddings = np.load("faces_embeddings.npz")
 X = faces_embeddings['arr_0']
 Y = faces_embeddings['arr_1']
 
@@ -20,10 +20,10 @@ encoder = LabelEncoder()
 encoder.fit(Y)
 
 # Load Haar Cascade classifier for face detection
-haarcascade = cv.CascadeClassifier("model/haarcascade_frontalface_default.xml")
+haarcascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 # Load SVM model for face recognition
-model = pickle.load(open("model/svm_model.pkl", 'rb'))
+model = pickle.load(open("svm_model.pkl", 'rb'))
 
 # Initialize video capture
 cap = cv.VideoCapture(1)
