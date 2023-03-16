@@ -52,7 +52,7 @@ class FaceLoading:
         return np.asarray(self.X), np.asarray(self.Y)
 
 # Load faces and their corresponding labels
-face_loading = FaceLoading("data")
+face_loading = FaceLoading("dataset")
 X, Y = face_loading.load_classes()
 
 # Compute face embeddings using FaceNet
