@@ -21,3 +21,7 @@ dataset/
         ...
     ...
 ```
+
+**2. Train**
+
+To get started, you'll have to locate line 55 in the train.py file and change the value of the ```'dataset'``` field to the path of your dataset directory.
