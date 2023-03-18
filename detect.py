@@ -58,7 +58,8 @@ while cap.isOpened():
 
         # Convert label encoding back to original names
         final_name = encoder.inverse_transform(face_name)[0]
-
+        
+        # Put label text on bounding box
         label_size, baseline = cv2.getTextSize(final_name, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
         cv2.rectangle(frame, (x, y), (x + label_size[0], y - label_size[1] - baseline), (0, 255, 0), cv2.FILLED)
         cv2.putText(frame, str(final_name), (x, y-baseline), cv2.FONT_HERSHEY_SIMPLEX,0.5, (0, 0, 0), 1, cv2.LINE_AA)
