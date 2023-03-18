@@ -3,6 +3,11 @@ The face recognition program uses Facenet, MTCNN, and SVM for training and Haarc
 
 During the training process, MTCNN detects and aligns facial features, Facenet generates feature vectors, and SVM is trained to match the vectors with known identities. The resulting model is then used in the face recognition code, which employs Haarcascade for face detection, Facenet for feature generation, and the SVM model for identity matching. This system provides accurate and reliable face recognition capabilities, and can be used in a variety of applications.
 
+Below is face recognition video using a model trained on 100 face images, running on an I3-7200U CPU
+<p align="center">
+<img src="https://github.com/Ng-Tuan-Anh/Face-recognition/blob/main/Face-recognition-on-webcam.gif" width="500" height="394" />
+</p>
+
 ## Installation
 
 Clone repository and install requirements.txt
