@@ -5,7 +5,7 @@ During the training process, MTCNN detects and aligns facial features, Facenet g
 
 Below is face recognition video using a model trained on 100 face images, running on an I3-7200U CPU
 <p align="center">
-<img src="https://github.com/Ng-Tuan-Anh/Face-recognition/blob/main/Face-recognition-on-webcam.gif" width="500" height="394" />
+<img src="https://github.com/Tyan-Ng/Face-recognition/blob/main/Face-recognition-on-webcam.gif" width="500" height="394" />
 </p>
 
 ## Installation
@@ -13,7 +13,7 @@ Below is face recognition video using a model trained on 100 face images, runnin
 Clone repository and install requirements.txt
 
 ```
-git clone https://github.com/Ng-Tuan-Anh/Face-recognition
+git clone https://github.com/Tyan-Ng/Face-recognition
 ```
 
 ```
