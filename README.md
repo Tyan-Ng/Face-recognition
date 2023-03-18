@@ -11,9 +11,16 @@ Below is face recognition video using a model trained on 100 face images, runnin
 ## Installation
 
 Clone repository and install requirements.txt
+
 ```
 git clone https://github.com/Ng-Tuan-Anh/Face-recognition
+```
+
+```
 cd Face-recognition
+```
+
+```
 pip install -r requirements.txt
 ```
 
